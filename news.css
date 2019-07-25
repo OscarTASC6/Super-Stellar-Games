@@ -1,0 +1,64 @@
+body{
+    background-image: url("https://images6.alphacoders.com/681/thumb-1920-681536.jpg");
+    background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: rgba(34, 125, 185, 0.548)
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: tomato;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    margin: 0px;
+    color: cadetblue;
+    font-family: 'Acme', sans-serif;
+}
+
+.gamepreview{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-top: 50px;
+    color: white;
+}
+
+.upcominggames{
+    height: 10%;
+    width: 10%;
+
+
+}
